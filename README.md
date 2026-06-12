@@ -22,13 +22,13 @@ This is not a mock script or an API wrapper. The code embedded inside this integ
 
 ## 📐 How It Works: Turning Code into Math
 picoGPT.py (84 lines) ──> Minification ──> PrimeGPT.py (53 lines) ──> gzip + Padding Bytes ──> Big Integer ──> gmpy2.next_prime() ──> ⭐ THE PRIME ⭐
-### CHECK OUT THE BLOG FOR MORE: 
+### CHECK OUT THE BLOG FOR MORE: https://medium.com/@srishanya2005/primegpt-i-made-chatgpt-inside-a-prime-number-72557e945c3d
 
 ## 🚀 Quick Start & Usage1. 
 1.Installation
 Clone the repository and install the minimal dependencies required for number processing:
-#### Bashgit clone https://github.com/MatchaOnMuffins/femtoGPT.git
-#### cd femtoGPT
+#### Bashgit clone https://github.com/srishanya/PrimeGPT.git
+#### cd PrimeGPT
 #### pip install numpy gmpy2
 
 2. Extracting the GPT from the PrimeTo unpack the code from the mathematical prime, copy the prime string from prime_number.txt and run the extraction routine:
